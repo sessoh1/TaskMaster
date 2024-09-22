@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskmaster Dashboard</title>
+    <link rel="stylesheet" href="HomePage.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="TaskMaster Logo.png" alt="Taskmaster Logo" class="logo-image">
+        </div>
+        <nav class="nav-links">
+            <a href="#tasks">Tasks</a>
+            <a href="#calendar">Calendar</a>
+            <a href="#settings">Settings</a>
+            <img src="user-icon.png" alt="User Profile" class="user-icon">
+        </nav>
+    </header>
+    
+
+    <!-- Main Content -->
+    <main class="dashboard">
+        <!-- Task Overview Section -->
+        <section class="task-overview">
+            <h2>Task Overview</h2>
+            <div class="filters">
+                <button id="filter-today">Today</button>
+                <button id="filter-week">This Week</button>
+            </div>
+            <ul class="task-list">
+                <li class="task-item">Complete project report <span class="deadline">Today</span></li>
+                <li class="task-item">Prepare presentation <span class="deadline">Tomorrow</span></li>
+                <li class="task-item">Team meeting <span class="deadline">This Week</span></li>
+            </ul>
+        </section>
+
+        <!-- AI Suggestions Section -->
+        <section class="ai-suggestions">
+            <h2>AI Suggestions</h2>
+            <div class="suggestion-card">
+                <p>Best task to complete now: <strong>Prepare presentation</strong></p>
+                <div class="actions">
+                    <button id="start-task">Start Task</button>
+                    <button id="reschedule-task">Reschedule</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calendar Widget -->
+        <section class="calendar-widget">
+            <h2>Calendar</h2>
+            <div id="calendar"></div>
+        </section>
+
+    </main>
+
+    <!-- Floating Quick Add Button -->
+    <button id="quick-add-btn">+</button>
+
+    <!-- JavaScript -->
+    <script src="HompePage.js"></script>
+</body>
+</html>

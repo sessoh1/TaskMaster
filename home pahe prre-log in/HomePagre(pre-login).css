@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-logo img {
+    width: 320px; /* Adjust this size as needed */
+    height: auto;
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e0f7fa;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    margin-bottom: 40px;
+}
+
+.cta-buttons .btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #00796b;
+    color: white;
+    border-radius: 5px;
+}
+
+.cta-buttons .btn.secondary {
+    background-color: #004d40;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-card img {
+    width: 60px; /* Smaller logos */
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#how-it-works .steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.steps .step {
+    text-align: center;
+}
+
+.steps .step img {
+    width: 50px; /* Smaller logos */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#testimonials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#testimonials img {
+    width: 40px; /* Smaller profile images */
+    height: 40px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f4f4f4;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00796b;
+}
+
+nav ul li .about-btn {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav ul li .about-btn:hover {
+    background-color: #004d40;
+}
